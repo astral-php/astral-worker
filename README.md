@@ -240,6 +240,7 @@ Après un déploiement, relancez le worker (`supervisorctl restart astral-worker
 ```
 astral-worker/
 ├── composer.json · phpunit.xml · LICENSE · CHANGELOG.md
+├── stubs/.env.worker.example   # variables QUEUE_* / WORKER_PDF_DIR
 ├── database/migrations/        # jobs, failed_jobs (à copier dans database/migrations/ du site)
 ├── examples/                   # listener, job, renderer dompdf, job facture
 ├── src/Astral/Worker/
