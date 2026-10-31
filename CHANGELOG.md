@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.1] - 2026-10-31
+
+### Modifié
+- `astral-php/astral-core` : **`^1.2 || ^2.1`** (débloque astral-shop 2.x / feuille 2.1 P5)
+
 ## [0.1.0] - 2026-10-25
 
 ### Ajouté
