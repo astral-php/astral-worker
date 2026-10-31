@@ -1,10 +1,17 @@
 {
     "name": "astral-php/astral-worker",
-    "description": "File d'attente et worker pour Astral — mails et PDF en arrière-plan (sync, database, Redis)",
+    "description": "File d'attente et worker pour Astral \u2014 mails et PDF en arri\u00e8re-plan (sync, database, Redis)",
     "type": "library",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "license": "MIT",
-    "keywords": ["astral", "php", "queue", "worker", "jobs", "mvc"],
+    "keywords": [
+        "astral",
+        "php",
+        "queue",
+        "worker",
+        "jobs",
+        "mvc"
+    ],
     "authors": [
         {
             "name": "astral-php",
@@ -17,17 +24,17 @@
         "issues": "https://github.com/astral-php/astral-worker/issues"
     },
     "require": {
-        "php": "^8.1",
+        "php": "^8.3",
         "ext-json": "*",
         "ext-pdo": "*",
-        "astral-php/astral-core": "^1.2 || ^2.1"
+        "astral-php/astral-core": "^2.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.5 || ^11.0"
     },
     "suggest": {
         "ext-redis": "Requis uniquement pour QUEUE_DRIVER=redis",
-        "ext-pcntl": "Arrêt propre du worker sur SIGTERM/SIGINT (Linux/macOS)",
+        "ext-pcntl": "Arr\u00eat propre du worker sur SIGTERM/SIGINT (Linux/macOS)",
         "dompdf/dompdf": "Exemple de moteur PDF pour GeneratePdfJob (voir examples/)"
     },
     "autoload": {
